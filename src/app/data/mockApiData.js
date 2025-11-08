@@ -1,4 +1,3 @@
-// src/app/data/mockApiData.js
 export const mockApiData = {
   "teamName": "Passa a Bola FC",
   "season": "2024",
