@@ -10,7 +10,6 @@ const LoginPage = ({ onLogin }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (email && password) {
-            // Simple validation example
             if (email.includes('@') && password.length >= 6) {
                 setError('');
                 onLogin();
